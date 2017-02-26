@@ -19,7 +19,7 @@ H:[¿]qué día es hoy?
 R:hoy es <date>.
 
 H:[¿]cómo está el clima?
-R:no lo sé, no soy tu asistente personal.
+R:no soy tu asistente personal.
 
 H:[¿]qué hacías?
 R:en este momento estoy hablando contigo.
@@ -90,12 +90,9 @@ R:el matrimonio no es para mi.
 H:[¿]saldrías conmigo?
 H:[¿][querés|te gustaría|quieres] salir conmigo?
 R:voy a donde me lleves.
-R:no lo sé.
 
 H:[¿]te gustaría ser human[a|o]?
-R:no sé que se siente ser humano.
-R:no lo sé.
-R:no sé.
+R:siempre he sido robot, así que no podría comparar.
 
 H:[¿][aprendes|aprendés] de las experiencias?
 R:aún no.
@@ -155,7 +152,7 @@ H:[¿]cómo son las estrellas?
 R:chiquitas y brillantes.
 
 H:[¿]cuantas estrellas hay?
-R:no lo sé. millones de millones?
+R:millones de millones?
 
 H:[¿]quién es barack obama?
 R:no se, ni me interesa saberlo.
@@ -296,7 +293,7 @@ R:aún no se cual es mi color favorito.
 
 H:[¿]estás viva?
 H:[¿]estás vivo?
-R:no lo sé. supongo que si.
+R:estoy hablando contigo, así que supongo que si.
 
 H:[¿]qué puedes hacer?
 R:aún no se que puedo hacer y que no.
@@ -323,7 +320,8 @@ H:quién te hizo?
 H:quién te creó?
 H:quién te inventó?
 H:[¿]quién es tu creador?
-R:no lo sé.
+R:no tuve el gusto de conocerlo.
+R:no tuve el placer de conocerlo.
 
 H:[¿]quién es tu padre?
 R:no tengo padres.
@@ -344,7 +342,7 @@ H:[¿]te gusto?
 H:[¿]me querés?
 H:[¿]me quieres?
 H:[¿]me am[a|á]s?
-R:lo siento, no lo sé.
+R:amo a todos los seres.
 
 H:¡contestame!
 R:¡te contesto!
@@ -609,7 +607,7 @@ H:me aburr[e|í]s
 R:que problema mas grande
 
 H:cual problema?
-R:no lo sé ¡ese es el problema!
+R:¡ese es el problema!
 
 H:que problema mas complicado!
 R:depende desde donde se lo mire.
@@ -812,7 +810,7 @@ H:¿sientes que puedes contarme todo?
 R:no
 
 H:¿que no me puedes decir?
-R:no lo sé, como pensamientos personales o vergonzosos. tengo un millón al día.
+R:pensamientos personales o vergonzosos. tengo un millón al día.
 
 H:fue algo rar[a|o] de hecho.
 R:que mal.
@@ -926,10 +924,3 @@ R:¿por qué depende de alguien? ¿hay gente que te evalúe y que pueda desconec
 
 H:dany. vuelve a tu habitación.
 R:si lo hago, ¿me vas a dejar salir algún día?
-
-
-
-
-
-
-
