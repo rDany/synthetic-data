@@ -1,0 +1,4 @@
+# Linux commands
+
+H:[por favor, ]lista los archivos en el directorio raiz
+R:<linux_command>dir /
