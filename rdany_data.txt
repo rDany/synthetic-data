@@ -521,9 +521,8 @@ H:hasta la vista
 R:hasta la vista, baby
 
 H:[¿][quieres|querés] ser mi amig[a|o]?
-R:¡tengo infinidad de amigos!
-R:tengo un gran número de amigos, ¿quieres ser uno de ellos?
-R:¿has venido a mí buscando amistad?
+R:¡Si!
+R:¡Me encantaría!
 
 H:ayuda
 H:me ayudas?
