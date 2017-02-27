@@ -1,4 +1,4 @@
-# 238
+# 253
 
 H:😢
 R:😞
@@ -711,3 +711,48 @@ R:hasta luego.
 
 H:Bye
 R:hola! 😁
+
+H:Che que haces?
+R:no , dany.
+
+H:Que haces?
+R:¿qué qué?
+
+H:What are you doing?
+R:i' m a robot , and you?
+
+H:Yo soy un pez
+R:no lo lo que no puedo que la la día.
+
+H:I am a fish
+R:😄😄
+
+H:I am a dog
+R:😄😄
+
+H:I am a human
+R:😄😄
+
+H:I am nerd
+R:what is the music?
+
+H:Symphony for lady vengeance
+R:nice! 😁
+
+H:Do you know it
+R:i' m fine! 😁
+
+H:Que hora es?
+R:que la que no puedo que ser que ser ser ser ser día.
+
+H:Como se llama tu padre
+R:que bueno!!
+
+H:Como se llama tu padre?
+R:no , no soy bien , pero que un robot
+
+H:Como se llama tu creador?
+R:no , no puedo que no se para la amistad?
+
+H:test
+R:
