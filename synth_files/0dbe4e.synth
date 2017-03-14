@@ -1,0 +1,24 @@
+#0dbe4e02b7ef69946e5faf01455324856666efaaef1926c113846b19f9f9d350
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(2):Hi! How are you?
+
+
+H(13):Hello Dany
+R(30):Hello!
+
+
+H(96):{typo}hy{:}hi{/typo}
+R(14891):Hi there, how are you!? 😁😁
+
+
+H(15632):Nima
+R(15917):What is "Nima" ? ☺️
+
+
+H(19743):e zaybal yoq
+R(24120):Ingliz tilida gapira olasizmi?

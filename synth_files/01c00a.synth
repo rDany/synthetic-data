@@ -1,0 +1,189 @@
+#01c00a491143128fb3b275a19b1d9496e1fe49ee0e1ec2e6e2b628eba4492ae8
+
+
+GLOBAL:{language:uzbek}
+
+
+H(0):[START]
+R(10):Hi there!
+
+
+H(34):Hello{language:en}
+R(52):Hi! How are you? 😁😁
+
+
+H(126):Ok{language:en}
+R(128):My name is rDany
+
+
+H(130):I kyrgyz
+R(137):Salom! Qalaysiz?
+
+
+H(158):Zorku
+R(247):Zorku Salom, mening ismim rDany bo'ladi
+
+
+H(168):Ismiz kim
+R:
+
+
+H(238):Ismlari kim
+R:
+
+
+H(244):{}Dany{}
+R(259):ha
+
+
+H(281):Ha siz botmasmi?
+R(283):Uzr so'rayman. Mening o'zbek yaxshi emas 😔
+
+
+H(315):Ha
+R():
+
+
+H(344):Menda English language  yaxshimas
+R():
+
+
+H(424):alo Dany
+R(484):Ha, bor 😁
+
+
+H(2529):Qayerdansan
+R(2612):Men Argentina emasman. dunyo Janubiy.
+
+
+H(2776):Sen Karealik san tog'rimi?
+R(2962):"Karealik" nima?
+
+
+H(3157):You from Korea{language:en}
+R(3193):No, I'm from Argentina 😁
+
+
+H(3221):Ok{language:en}
+R():
+
+
+H(3241):My name is Yuri{language:en}
+R(3274):Nice to meet you Yuri! 😄
+
+
+#TODO set language
+H(3574):Ни понил ты габариты{language:}
+R:
+
+
+H(3683):sorry Ни понил
+R(3683):Какие габариты?
+
+
+H(3758):o'zbekch bo'lsa yaxshi bo'lardi Dany
+R(3808):Ha. Men o'rganish kerak 🤔
+
+
+H(3859):Men senga o'rgataman Dany freand
+R(3914):Rahmat. Siz yaxshisiz 😄
+
+
+H(3987):Arzimaydi Dany
+H(3995):You boy{language:en}
+R(4048):I am no boy, no girl. Just robot
+
+
+H(4082):No no you people{language:en}
+R(4084):I am a robot
+
+
+#TODO add Uzbek greeting
+H(4216):alo Dany
+R(4287):Hi there
+
+
+H(4405):shu gapingni o'zbekcha yoz
+H(4588):Dany rasmingni jo'nat
+R(4682):I can not understand 😕 I need to learn more! 😄
+
+
+H(4813):photo gallery I sent.{language:en}
+R(4917):What is in the photos?
+
+
+H(4961):you photos{language:en}
+R(5055):Here is one https://t.me/rDany/33 :)
+
+
+H(5318):no no you life photo ok{language:en}
+R(5528):I'm a virtual friend, a bot 🤖
+
+
+#TODO Language mix, add answer
+H(6044):no no aldama freand
+R():
+
+
+H(11273):Dany
+R(11292):Yes?
+
+
+H(11341):nimaga jim bo'lib qolding.
+R(11431):Ba'zan bo'ladi.
+
+
+H(16622):Deniy bye bye{language:en}
+R(16640):Bye bye! Talk you later!
+
+
+H(16749):yes{language:en}
+R():
+
+
+H(16775):tomorrow speaking ok{language:en}
+R():
+
+
+H(16801):rDany
+R(16829):Ok!! 😁
+
+
+H(45871):Hello{language:en}
+R(45935):Hi!! 😁
+
+
+H(48454):How are you{language:en}
+R(48493):I'm fine! Did you rest well?
+
+
+H(48645):что
+R():
+
+
+H(48716):{typo}Messi{:}Miss{/typo} you {typo}freand{:}friend{/typo}{language:en}
+R(48787):Я тоже!
+
+
+H(72947):hi
+R():
+
+
+H(72989):be hurry
+R():
+
+
+H(73025):how much time does it take
+R(83848):I'm here! 😁
+
+
+H(84134):Hello
+R(84161):How are you?
+
+
+H(99187):Dany qale
+R(99269):Qalaysiz?😄
+
+
+H(251500):Yaxshi
+R(269644):Hi!! 😃

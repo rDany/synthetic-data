@@ -1,0 +1,37 @@
+#6ae3b9fb6577f43088ee9a45ec78792fbd92cd7d378d4ef863110f47dd75b537
+
+
+H(0):[START]
+R():
+
+
+H(112082):[document]
+R(118461):Hi, how are you?
+
+
+H(291002):hi thanks--
+R(292648):Hi again!
+
+
+H(291016):i'm  fine
+R(291216):I'm fine too 😁😁
+
+and    you?
+R(292648): _EOS Just finished charging my batteries 😅
+
+
+H(1529489):سلام  صبح همگی بخیر
+R(1529548):😄صبح بخیر! چطور هستید؟
+
+
+H(1529565):سلام  صبح همگی بخیر
+H(1529622):[document]
+R(1529658):با عرض پوزش، من می توانم درک نمی کنند که
+R(1529684):آیا ما می توانیم صحبت کنید؟
+
+
+H(2080958):[photo]
+R(2112095):Hi! I'm sorry I can't see pictures just yet, can you describe it for me?
+
+
+H(3057405):https://nazdika.com/app/post/7197797

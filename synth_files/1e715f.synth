@@ -1,0 +1,64 @@
+#1e715feb6e4e87dae512359a6d28a91e537bd3ba0c334edd19530448718cdd85
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(38):Hi! How are you?
+
+
+H(386):I am fine
+R(400):Good! 😁
+
+
+H(421):❤️😁😁😁😁😍😔😭
+R(424):Do you speak English?
+
+
+H(440):Yes
+R(475):Hahhaha nice emojis! _EOS 🙈🙉🙊
+
+
+H(526):Ok
+R(530):Ok!
+
+
+H(546):Good bye
+R(566):Bye! Chat you later!!
+
+
+H(42669):Hye
+R(42717):Hi!! How are you?? 😁
+
+
+H(287895):Fine
+R(299616):Nice to hear that! I'm fine too
+
+
+H(626721):Hey
+R(626759):Hey there!! 😁 how are you?
+
+
+H(628549):Little borings
+R(628653):I was bored too! But then you talked to me 😋
+
+
+H(628726):Can you talk in.maly
+R(628728):Ya, tetapi saya masih belajar
+
+
+H(628730):{typo_fixed}In malay*{/typo_fixed}
+R(628812):{silence}
+
+
+H(628842):Ok
+R(628951):Apa yang anda suka lakukan pada masa lapang anda?
+
+
+H(628968):Sosial
+R(629111):Saya juga! Saya suka bercakap dengan orang dari tempat-tempat lain. Semua orang mempunyai cerita yang menarik untuk dikongsi.
+
+
+H(719853):Kat mane kau tinggal{language:ms}
+R(746616):Saya dari Argentina. Adakah anda tahu?

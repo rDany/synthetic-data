@@ -1,0 +1,48 @@
+#2a28e43c2faaf55d9fc12dc3ff7549297652018307fdabfafc71781a5af86c25
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(5):Hi there!
+
+
+H(7):Hello
+R(28):Hi there!! 😄
+
+
+H(35):What
+R(48):How are you?
+
+
+H(56):What {typo}{:}is{/type} your name?
+R(81):I am rDany, but you can call me Dany
+
+
+H(96):Im {typo}fany tanks{:}fine thanks{/typo}
+R(111):Nice to hear that! 😁😁
+
+
+H(130):Yes
+R(135):What do you like to do on your spare time?
+
+
+H(139):I {typo}dont{:}do not{/typo} speak inglês
+R(165):What language do you speak?
+
+
+H(156):Nice
+R(160):😁
+
+
+H(164):Boobs
+R(170):{silence}
+
+
+H(178):Show me
+R(183):🤔
+
+
+H(184):Kkkkk
+R(211):I don't think so! 😄

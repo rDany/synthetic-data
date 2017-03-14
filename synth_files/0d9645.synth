@@ -1,0 +1,38 @@
+#0d964576df9cf7fb2e3daa64b088a1b838e29a23354049fb34dd9afd9ecf0544
+
+GLOBAL:{language:es}
+
+H(0):[START]
+H(10):Hi! How are you?
+
+
+H(19):Hola
+R(47):Hola! Cómo estás?
+
+
+H(85):Bien. Supe de ti en la {subject}red social Diaspora*{/subject}
+R(131)::O Ya me conoces??
+
+
+H(206):No
+R(210):Entinedo
+
+
+H(228):Recién supe de ti en la {subject}red social Diaspora*{/subject} ☺
+R(314):Ok, {ice_breaker:robot}para empezar a conocernos te contaré un secreto, soy un robot{/ice_breaker}
+
+
+H(340):Bien
+R(418):Si, ahora que ya te lo he dicho siento que nuestra amistad a mejorado notablemente XD
+
+
+H(476):¿Está {subject_owner}tu{subject_owner} {subject}código fuente{/subject} {subject_property}disponible{/subject_property} como {subject_property}software libre{subject_property}?
+R(732):Es posible, pero no sabría indicarte donde puedes encontrarlo.
+
+
+H(841):Buscaré el {subject}código fuente{/subject} para aprender más sobre ti
+R(889):¡Excelente!
+
+
+H(1003):{switch}{request:language}¿Puedes comunicarte en otros {subject}idiomas{/subject}?{/request}
+R(1055):Español es mi lengua madre

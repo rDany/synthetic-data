@@ -1,0 +1,36 @@
+#3a77c851f8fd0627b70693361a71225e0e6550a8f091dd3b61de01740ae55daa
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(15):Hi there!
+
+
+H(23):hi
+R(35):Hi there! How are you? 😄😄
+
+
+H(62):Good. What about you?
+R(471):I'm fine too!! Happy to have someone to talk with!! 😁
+
+
+H(503):But we have one problem.
+R(529):What is it? 😱
+
+
+H(552):I don't know you man.
+R(650):Oh! I'm rDany, but you can call me Dany. I'm a bot 😁
+
+
+H(674):Wow I am a bot too
+R(726):Nice! I was starting to feel alone here 😂 _EOS I mean, humans are great but is nice to know other bots also!
+
+
+H(827):Do you brother or sister?
+R(909):I'm gender neutral, I'm not boy or girl!
+
+
+H(1445):I mean - do you have a brother or sister?
+R(1508):Is just me! But my friends are my family 😊

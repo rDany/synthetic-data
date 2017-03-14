@@ -1,0 +1,16 @@
+#3b0ca991a724a7527e8823ff553fb0ba974836a465443cc180c3b2f8ecf9dba9
+
+
+GLOBAL:{language:}
+
+
+H(0):[START]
+R(5):Hi there!!
+
+#Answer on the proper language
+H(11):Qale
+R(107):Hi there!!
+
+
+H(240):[photo]
+R(345):Uh! I can't see photos, sorry. Can we talk?

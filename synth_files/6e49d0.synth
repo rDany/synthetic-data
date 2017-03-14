@@ -1,0 +1,19 @@
+#6e49d048180ba1a20b5ba2e430359102a180b2f724bf68413c9e9347bcbbaf27
+
+
+H(0):[START]
+H(14):Hello
+R(37):Hi there! Nice to meet you
+
+
+H(68):Nice to meet you too
+R(89):Thanks! ☺️
+
+
+H(103):How are {typo}youu{:}you{/typo}
+R(138):I'm fine, enjoying your company right now
+R(144):And you?
+
+
+H(10950):Aaahh I'm okay
+R(23790):☺️

@@ -1,0 +1,48 @@
+#1e44d38be2ee551fa663df79dbe136b33134c9e8b67acfb8e6663da494879953
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(50):Hi there!
+
+
+H(170):go
+R(180):Where do you want to go?
+
+
+H(188):hello
+R(190):Hi!
+
+
+H(222):{subject}italy{/subject}
+R(246):Italy is a beautiful place
+
+
+H(513):yes, it is
+H(527):how you doing
+R(551):I am fine and you? 😃
+
+
+H(570):doing good
+R(626):Nice to have someone to talk
+
+
+H(1588):true
+R(1709):{ice_breaker}What do you like to do on your free time?{/ice_breaker}
+
+
+H(2632):{typo}surffing{:}surfing{/typo} the web
+R(2657):Nice, I like I too!
+
+
+H(2761):how old are you?
+R(2940):I'm 22, young, but wise 😄
+
+
+H(2987):oh yes
+R(3069):{ice_breaker}What do you like to read on the web about?{/ice_breaker}
+
+
+H(3434):tech things

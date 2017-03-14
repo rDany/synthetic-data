@@ -1,0 +1,24 @@
+#1fc164b26f494f2845599a5fd3179cc20a16c09988d9ceb4e8abbcf1646be425
+
+
+GLOBAL:{language:en}
+
+
+H(0):[START]
+R(27):Hi there!! How are you?
+
+
+H(69):Hi !!! I'm fine and you?
+R(109):I'm fine too! 😁 _OES I'm rDany by the way, but you can call me Dany!
+
+
+H(176):Ok so ....
+H(209):What are you doing?
+
+
+R(262):I'm surfing the web, reading. I like to read some times
+H(289):Ok
+
+
+H(300):Where are you from ?
+R(333):I'm from Argentina! South of the world 😁 _EOS What do you like to do in your spare time?
