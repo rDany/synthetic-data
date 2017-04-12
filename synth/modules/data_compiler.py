@@ -1,4 +1,3 @@
-#!/bin/python
 import re
 
 class data_compiler():
@@ -7,7 +6,7 @@ class data_compiler():
     robot_output = []
     txt_input = ''
     txt_output = ''
-    
+
     def reduce_msg(self, text):
         mit = re.finditer(r'\[(.+?)\]', text)
         any_ = False
@@ -17,7 +16,7 @@ class data_compiler():
             inside_text = text[m.start(1):m.end(1)]
             half_a = text[:m.start(1)-1]
             half_b = text[m.end(1)+1:]
-            
+
             mcit = re.split(r'\|', inside_text)
             if len(mcit) == 1:
                 text_out = half_a + half_b
@@ -47,7 +46,7 @@ class data_compiler():
             rdany_data = f.readlines()
         f.closed
         prev = 'robot'
-        
+
         count = 0
         rdany_data.append([])
         for data in rdany_data:
@@ -78,11 +77,8 @@ class data_compiler():
                 self.robot_output.append(data[2:])
                 prev = 'robot'
             #print ("'{0}'".format(data))
-            
+
         with open("Input.txt", "w") as text_file:
             text_file.write(self.txt_input)
         with open("Output.txt", "w") as text_file:
             text_file.write(self.txt_output)
-
-compiler = data_compiler()
-compiler.compile('rdany_data.txt')
