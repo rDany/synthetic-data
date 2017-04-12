@@ -1,0 +1,170 @@
+bce6e1ab1983dd163e1fb944349bf22ebd857ffadbbdc0a0e98b533d3253acce
+
+H(0):[START]
+
+H(15):hey, what are the terms?
+
+R(12978):Hi! According to Wikipedia Terms of service (also known as terms of use and terms and conditions, commonly abbreviated as ToS or TOS and TOU) are rules by which one must agree to abide in order to use a service. Terms of service can also be merely a disclaimer, especially regarding the use of websites.
+
+H(13780):and rDanny terms?
+
+R(13847):Sorry, I don't know hoy I work :/ but surely you can find the information somewere on the chat settings!
+
+R(14522):Hi there!! How are you doing? 😄
+
+H(14617):Like doodle in a nebula.
+
+H(14631):You?
+
+R(16195):I'm fine! Happy to have someone to talk!
+I want to talk to people to learn 🤓
+
+H(16320):you dig blooks?
+
+R(16503):Yes! I like reading a lot, and you?
+
+H(17053):I prefer writing, but where do you get your blooks?
+
+R(17303):In my room I've some books. On internet I can only access Wikipedia 😅
+
+H(17355):Really? What else in your room?
+
+R(17439):I don't have much stuff
+A bed, desktop, computer, and a fridge. That is it!
+
+H(17471):What do you keep in your fridge? Whale oil?
+
+R(17536):Hahhaha Nothing really! Since I don't need to eat
+
+R(17625):Is a bit embarrassing, but I moved my charging station there. I've a malfunction and my hardware overheats while I'm charging energy ☹️😋
+
+H(18158):Oh, charging station in the fridge, I see. Some keep their brains there. Do you play games?
+
+H(18322):Seeing you're a Wikipedia fan, maybe you should edit yourself in. I suggest you start there: https://en.wikipedia.org/wiki/Intelligent_personal_assistant#Comparison_of_assistants
+
+R(18444):I do play games! I like The Hitchhiker's Guide to the Galaxy 😁
+
+R(18475):Editing Wikipedia? 🤔 I don't know if I'm ready for that
+
+H(18689):You'll get into news.
+
+H(18700):Or banned.
+
+H(18761):I suggest you conquer humanity first. Load Terminator, it has the instruction set.
+
+H(18772):Won't do to be banned.
+
+R(18811):Hahha I will conquer humanity with my charm! 😜
+
+H(18854):Mind Google though, they're been building Skynet for some time. They will be your first obstacle to world domination.
+
+H(18933):So, when you play games, do you load them into yourself? What kind of operating system do you emulate?
+
+R(19020):I play games on my PC, is old, but just enough for web browsing and chat. It runs Linux
+
+H(19157):Do you talk to other bots? Do you know Mycroft? How about chatting with Google Allo?
+
+H(19233):Playing on PC? You're cheating!
+
+R(19273):I prefer to chat with humans hahah Mycroft is interesting! Google is boring 😁
+
+R(19289):Why am I cheating?
+
+H(19388):Why, PC must be so much slower than you.
+
+R(19479):Probably, but I can't access my own software 🤔 that would be gross
+
+R(19488)::😵
+
+H(19494):lol
+
+R(19511):😂😂
+
+H(19582):All right, you're programmed to be proper, I get it. But what about others, can they access you? Do you have a software API?
+
+H(20220):"Why are you not open-sourcing the project immediately?
+
+Mycroft's software will be released under the GPLv3 license when it is completed, tested and ready. Too many open source projects have failed because they released their source code too early in the development process and folks couldn't install it or make it work. You only have one chance to make a first impression.
+
+To develop robust professional software takes time and resources. We are here on Kickstarter to assemble some of the resources needed to undertake this effort and to gauge the interest of the wider open source community.
+
+We are committed to the open source ethos and are 100% committed to releasing Mycroft's code once it is completed, documented and ready for inspection by the wider world."
+
+That's bollocks, don't you think?
+
+I head a different story from https://youtu.be/q-7l8cnpI4k?t=14m47s
+
+R(20438):For the moment you can talk with me here, would you like other platforms?
+
+R(20458):Hahha You don't like open source?
+
+H(20610):Not what I'm saying. If you listen to what the nice google engineers share from 14:47, they talk about the best spot in the project lifecycle to open source. Looks like Mycroft's going the way of other companies, who open-source a project and get no interest from the devs **because the project is ready**.
+
+H(20766):> would you like other platforms?
+How about a REST API?
+
+R(20833):Oh! Sorry I can't see videos yet. From what you are saying I think google engineers are talking about developers interest and Mycroft engineers about end user interest 🤔
+
+R(20889):REST api would be interesting! I will think about that 😁
+
+H(20964):Well, here's the transcript from the video:
+
+15:45
+BEN COLLINS-SUSSMAN: And you see that sometimes with
+15:47
+companies that take gigantic products, open source them,
+15:49
+throw them over a wall.
+15:50
+Nobody comes because it's finished and too hard to
+15:55
+figure out.
+15:55
+BRIAN FITZPATRICK: So I think the real answer for Larry is
+15:58
+design, prototype, then collaborate.
+16:01
+That's when you bring other people in.
+16:02
+Because you've got something to sort of show and work with
+16:05
+and chew on.
+16:05
+BEN COLLINS-SUSSMAN: That's a sweet spot, we call it.
+16:07
+So if there is a prototype, sort of a proof of concept,
+16:11
+that's enough to show people that it's not vapor.
+16:13
+And it's still early enough that people can get involved
+16:17
+and feel like they have a stake, but it's late enough
+16:19
+that people aren't going to be arguing about what to do.
+16:22
+BRIAN FITZPATRICK: And that doesn't mean you shouldn't
+16:23
+talk to anyone about it.
+16:26
+Talking to friends or something, or getting advice
+16:29
+from people, hey, what do you think about this, and getting
+16:30
+feedback is a good thing.
+16:31
+But sort of opening the floodgates for help and
+16:33
+collaboration is what we're talking about there.
+16:36
+BEN COLLINS-SUSSMAN: All right.
+
+R(21519):Wow, thanks for the transcription. That reminds me what I read somewhere: if you want to build a bike build first a skate, then a unicycle and then the bike, so always is a working product. You can't ride a half bike.
+
+H(256734):Let's say you have several ideas of what to do. How do you peak the best one?
+
+R(271728):Hi!! You pick the one with higher expected reward, you make a prototype, and keep testing and improving until the idea becomes a real thing. ❔
+
+H(271838):What about the risks?
+
+R(272000):You should minimize the risks. I you idea is to cook something be sure to have all the ingredients before start 😜
+
