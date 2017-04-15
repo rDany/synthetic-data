@@ -19,8 +19,19 @@ main = Blueprint('main', __name__)
 
 #from difflib import SequenceMatcher
 
+@main.route('/api')
+def api():
+    test = {
+        "text": "#Example\nH:Hi\nR:Hi there[!]",
+        "parsed": [
+                {"text": "Example", "from": ""},
+                {"text": "Hi", "from": "H"},
+                {"text": "Hi there[!]", "from": "R", "entities": {"optional":[[8, 11]]}}
+            ]
+    }
+    return jsonify(test)
+
 
 @main.route('/')
 def index():
-    #return jsonify({})
     return render_template('index.html')

@@ -3,11 +3,55 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Monitor your render">
-    <meta name="author" content="Eibriel">
-    <!--<link rel="icon" href="/static/pic/eibriel.ico">-->
+    <meta name="author" content="rDany">
+    <!--<link rel="icon" href="/static/rdany.ico">-->
     <title>Synth dataset editor</title>
+    <style>
+.comment {
+    color: grey;
+}
+    </style>
+
 </head>
 <body>
-<h1>Synth dataset editor</h1>
+    <script src="/static/jquery-3.2.1.min.js"></script>
+    <h1>Synth dataset editor</h1>
+
+    <div class="result"></div>
+    <div class="log"></div>
+
+    <script>
+
+$( document ).ready(function() {
+    var jqxhr = $.ajax( "/api" )
+        .done(function(msg) {
+            for (var msg_i in msg["parsed"]) {
+                if (msg["parsed"][msg_i]["entities"]) {
+                    for (var ent_i in msg["parsed"][msg_i]["entities"]["optional"]) {
+                        start = msg["parsed"][msg_i]["entities"]["optional"][ent_i][0]
+                        end = msg["parsed"][msg_i]["entities"]["optional"][ent_i][1]
+
+                        optional = msg["parsed"][msg_i]["text"].substring(start, end)
+                        msg["parsed"][msg_i]["text"] = msg["parsed"][msg_i]["text"].substring(0, start) + "<strong>" + optional + "</strong>" + msg["parsed"][msg_i]["text"].substring(end)
+                    }
+                }
+                if (msg["parsed"][msg_i]["from"]=="") {
+                    $( ".result" ).append( "<p class=\"comment\">" + msg["parsed"][msg_i]["text"] + "</p>" );
+                } else {
+                    $( ".result" ).append( "<p>" + msg["parsed"][msg_i]["from"] + ": " + msg["parsed"][msg_i]["text"] + "</p>" );
+                }
+
+            }
+        })
+        .fail(function() {
+            //alert( "error" );
+        })
+        .always(function() {
+            //alert( "complete" );
+        });
+});
+
+
+    </script>
 </doby>
 </html>
