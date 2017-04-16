@@ -1,12 +1,8 @@
 #0eb0f34cf9474073371d24d845cc82b92894a714f91fd8f1090f96bdb43307d1
 
+{language:en}
 
-GLOBAL:{language:en}
-
-
-H(0):[START]
-R(47):Hi!! How are you?
-
-
-H(393):Salom
-R(3685):salom alajkum
+H(0):{start}
+    R(47):Hi!! How are you?
+        H(393):Salom
+            R(3685):salom alajkum

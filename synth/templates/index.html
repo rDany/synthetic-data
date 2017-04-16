@@ -10,38 +10,41 @@
 .comment {
     color: grey;
 }
+
+#editor {
+    margin: 0;
+    height:500px;
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+}
     </style>
 
 </head>
 <body>
     <script src="/static/jquery-3.2.1.min.js"></script>
+    <script src="/static/ace-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+
     <h1>Synth dataset editor</h1>
 
-    <div class="result"></div>
-    <div class="log"></div>
+    <pre id="editor"></pre>
+    <div id="console">Console</div>
 
     <script>
+
+var editor = ace.edit("editor");
+editor.setTheme("ace/theme/monokai");
+editor.session.setMode("ace/mode/synth");
 
 $( document ).ready(function() {
     var jqxhr = $.ajax( "/api" )
         .done(function(msg) {
-            for (var msg_i in msg["parsed"]) {
-                if (msg["parsed"][msg_i]["entities"]) {
-                    for (var ent_i in msg["parsed"][msg_i]["entities"]["optional"]) {
-                        start = msg["parsed"][msg_i]["entities"]["optional"][ent_i][0]
-                        end = msg["parsed"][msg_i]["entities"]["optional"][ent_i][1]
-
-                        optional = msg["parsed"][msg_i]["text"].substring(start, end)
-                        msg["parsed"][msg_i]["text"] = msg["parsed"][msg_i]["text"].substring(0, start) + "<strong>" + optional + "</strong>" + msg["parsed"][msg_i]["text"].substring(end)
-                    }
-                }
-                if (msg["parsed"][msg_i]["from"]=="") {
-                    $( ".result" ).append( "<p class=\"comment\">" + msg["parsed"][msg_i]["text"] + "</p>" );
-                } else {
-                    $( ".result" ).append( "<p>" + msg["parsed"][msg_i]["from"] + ": " + msg["parsed"][msg_i]["text"] + "</p>" );
-                }
-
+            for (var i in msg["parsed"]["not_found"]) {
+                $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
             }
+            editor.setValue(msg["text"]);
         })
         .fail(function() {
             //alert( "error" );
@@ -51,7 +54,6 @@ $( document ).ready(function() {
         });
 });
 
-
     </script>
-</doby>
+</body>
 </html>
