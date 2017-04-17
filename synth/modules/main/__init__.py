@@ -15,6 +15,7 @@ import re
 #import random as rd
 
 from synth import app
+from synth.modules.data_compiler import data_compiler
 
 main = Blueprint('main', __name__)
 
@@ -43,42 +44,13 @@ H:Buenas
     R:¿Qué querés? {angry:0.7}
 """
 
-tags = {
-    "start":            "Conversation start command",
-    "silence":          "An empty muted answer",
-    "eos":            "A new line",
 
-    "name":             "A name",
-    "language":         "A language",
-    "switch":           "Mark a change on the subject of the conversation",
-
-    "typo":             "A typo=Where are you {typo}form{}from{/typo}?",
-
-    "request":          "A request={request}Make me a sandwich{/request}",
-    "confirmation":     "A confirmation={confirmation}Yes please{/confirmation}",
-    "compare":          "A confirmation={compare}{subject:1}Beach{/subject} or {subject:2}mountains{/subject}?{/compare}",
-
-    "taxa":             "A taxa (race)=I am a {taxa}robot{/taxa}",
-    "ice_breaker":      "Short question to bring a new theme",
-    "greetings":        "Greetings={greetings}Hi there{/greetings}",
-
-    "subject":          "What are we talking about?",
-    "subject_owner":    "Who is the owner of that subject?",
-    "subject_property": "A property of the subject=The {subject}sun{/subject} is {subject_property}hot{/subject_property}",
-    "interest":         "Interest=I like {interest}footbal{/interest}",
-
-    "satisfaction":     "Emotions",
-    "surprise":         "Emotions",
-    "curiosity":        "Emotions",
-    "happyness":        "Emotions",
-    "tender":           "Emotions",
-}
 
 def parse_synth(text):
     parsed = {"not_found": []}
     tag_search = re.findall(r"\{(?:\/)?(?P<tag>.*?)(?:\:.*?)?(?:\/)?\}", text)
     for found_tag in tag_search:
-        if found_tag not in tags:
+        if found_tag not in data_compiler.tags:
             parsed["not_found"].append(found_tag)
     return parsed
 

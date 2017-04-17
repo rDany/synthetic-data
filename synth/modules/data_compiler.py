@@ -7,6 +7,37 @@ class data_compiler():
     txt_input = ''
     txt_output = ''
 
+    tags = {
+        "start":            "Conversation start command",
+        "silence":          "An empty muted answer",
+        "eos":              "A new line",
+
+        "name":             "A name",
+        "language":         "A language",
+        "switch":           "Mark a change on the subject of the conversation",
+
+        "typo":             "A typo=Where are you {typo}form{}from{/typo}?",
+
+        "request":          "A request={request}Make me a sandwich{/request}",
+        "confirmation":     "A confirmation={confirmation}Yes please{/confirmation}",
+        "compare":          "A confirmation={compare}{subject:1}Beach{/subject} or {subject:2}mountains{/subject}?{/compare}",
+
+        "taxa":             "A taxa (race)=I am a {taxa}robot{/taxa}",
+        "ice_breaker":      "Short question to bring a new theme",
+        "greetings":        "Greetings={greetings}Hi there{/greetings}",
+
+        "subject":          "What are we talking about?",
+        "subject_owner":    "Who is the owner of that subject?",
+        "subject_property": "A property of the subject=The {subject}sun{/subject} is {subject_property}hot{/subject_property}",
+        "interest":         "Interest=I like {interest}footbal{/interest}",
+
+        "satisfaction":     "Emotions",
+        "surprise":         "Emotions",
+        "curiosity":        "Emotions",
+        "happyness":        "Emotions",
+        "tender":           "Emotions",
+    }
+
     def reduce_msg(self, text):
         mit = re.finditer(r'\[(.+?)\]', text)
         any_ = False
