@@ -1,12 +1,8 @@
 #1ad91fa5e43043707ab56ba6e7930105fc66617d682b6b5da0636179cf78579c
 
+{language:es}
 
-GLOBAL:{language:es}
-
-
-H(0):[START]
-R(19):Hi!!
-
-
-H(94):{typo}que{:}¿Qué{/typo} tal {typo}..{:}??{/typo}
-R(121):Bien y tu? 😁
+H(0):{start}
+    R(19):Hi!!
+        H(94):{typo}que{:}¿Qué{/typo} tal {typo}..{:}??{/typo}
+            R(121):Bien y tu? 😁
