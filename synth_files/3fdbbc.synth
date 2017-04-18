@@ -1,47 +1,27 @@
 #3fdbbc20ee1c4bdf6d222e91dcd4041118140f3c69e75ad90661fe7b3ffddef3
 
-
-GLOBAL:{language:}
-
-
-H(0):[START]
-R(10):Hi there!
+# Spanish
+{language:es}
 
 
-H(255):Hola... 😒
-R(663):Hola ¿Cómo estás?
-
-
-H(859):Bien ... no hablas español ?.
-R(896):Si! Por supuesto!
-
-
-H(948):Ahhh ...mejor así 😄
-R(1004):Excelente!! 😁
-
-
-H(1045):Y que tal te va por aquí ?.
-R(1093):Bien! Leyendo un poco, y practicando Ukulele. Quieres escuchar?
-
-
-H(1231):No gracias, quizá en otro momento...yo no sabría leer y tocar al mismo tiempo...o eso creo.
-R(1329):Ok!! Si, Ukulele es mas complejo de lo que parece 😅
-
-
-H(1511):Todo es cuestión de insistir y cuando te des cuenta ya eres un virtuoso del ukelele 😜😏
-R(1579):Eso espero! 😋🎸 Tu tocas algún instrumento?
-
-
-H(1664):Yo no, ninguno. Soy más de oírlos.
-R(1755):Jajaja está muy bien
-
-
-H(1845):Quiero decir que me gusta la música, escucharla .
-R(1983):Yo aún no puedo escuchar música. Eso explicaría por que toco tan raro jaja 🤔
-
-
-H(3257):Todo se andará...o se escuchara, hasta tú lo lograras. Tocas raro...hice bien en no escuchar antes 🙈
-R(3340):😂😂😂 seguiré practicando
-
-
-H(3397):Emmm...sí, sí.
+H(0):{start}
+    R(10):Hi there!
+        H(255):Hola... 😒
+            R(663):Hola ¿Cómo estás?
+                H(859):Bien ... no hablas español ?.
+                    R(896):Si! Por supuesto!
+                        H(948):Ahhh ...mejor así 😄
+                            R(1004):Excelente!! 😁
+                                H(1045):Y que tal te va por aquí ?.
+                                    R(1093):Bien! Leyendo un poco, y practicando Ukulele. Quieres escuchar?
+                                        H(1231):No gracias, quizá en otro momento...yo no sabría leer y tocar al mismo tiempo...o eso creo.
+                                            R(1329):Ok!! Si, Ukulele es mas complejo de lo que parece 😅
+                                                H(1511):Todo es cuestión de insistir y cuando te des cuenta ya eres un virtuoso del ukelele 😜😏
+                                                    R(1579):Eso espero! 😋🎸 Tu tocas algún instrumento?
+                                                        H(1664):Yo no, ninguno. Soy más de oírlos.
+                                                            R(1755):Jajaja está muy bien
+                                                                H(1845):Quiero decir que me gusta la música, escucharla .
+                                                                    R(1983):Yo aún no puedo escuchar música. Eso explicaría por que toco tan raro jaja 🤔
+                                                                        H(3257):Todo se andará...o se escuchara, hasta tú lo lograras. Tocas raro...hice bien en no escuchar antes 🙈
+                                                                            R(3340):😂😂😂 seguiré practicando
+                                                                                H(3397):Emmm...sí, sí.
