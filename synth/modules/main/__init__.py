@@ -7,6 +7,7 @@ from flask import render_template
 #from flask import g
 
 import re
+import os
 #import json
 #import time
 #import requests
@@ -55,9 +56,20 @@ def parse_synth(text):
     return parsed
 
 
-@main.route('/api')
-def api():
-    with open('synth_files/0fac76.synth', 'r') as myfile:
+@main.route('/get_synth_list')
+def get_synth_list():
+    mypath = 'synth_files'
+    onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+    synth_list = {"synth_list": onlyfiles}
+    return jsonify(synth_list)
+
+
+@main.route('/get_synth')
+@main.route('/get_synth/<file_name>')
+def get_synth(file_name=None):
+    if file_name==None:
+        abort(404)
+    with open(os.path.join('synth_files', file_name), 'r') as myfile:
         text=myfile.read()
     test = {
         "text": text,

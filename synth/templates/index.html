@@ -28,9 +28,13 @@
     <script src="/static/ace-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 
     <h1>Synth dataset editor</h1>
+    <p><a href="#" onclick="do_save();return false;">Save</a> - <a href="#" onclick="do_reload();return false;">Reload</a></p>
 
     <pre id="editor"></pre>
-    <div id="console">Console</div>
+    <div id="console">
+        <p>Console<p>
+    </div>
+    <ul id="filelist"></ul>
 
     <script>
 
@@ -39,7 +43,23 @@ editor.setTheme("ace/theme/monokai");
 editor.session.setMode("ace/mode/synth");
 
 $( document ).ready(function() {
-    var jqxhr = $.ajax( "/api" )
+    var jqxhr = $.ajax( {method: "GET", url: "/get_synth_list"} )
+        .done(function(msg) {
+            for (var i in msg["synth_list"]) {
+                $( "#filelist" ).append("<li><a href=\"#\" onclick=\"do_load('"+msg["synth_list"][i]+"');return false;\">"+msg["synth_list"][i]+"</a></li>");
+            }
+            //editor.setValue(msg["text"]);
+        })
+        .fail(function() {
+            //alert( "error" );
+        })
+        .always(function() {
+            //alert( "complete" );
+        });
+});
+
+function do_load(file_name) {
+    var jqxhr = $.ajax( {method: "GET", url: "/get_synth/"+file_name} )
         .done(function(msg) {
             for (var i in msg["parsed"]["not_found"]) {
                 $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
@@ -52,7 +72,7 @@ $( document ).ready(function() {
         .always(function() {
             //alert( "complete" );
         });
-});
+}
 
     </script>
 </body>
