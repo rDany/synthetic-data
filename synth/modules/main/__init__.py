@@ -78,6 +78,22 @@ def get_synth(file_name=None):
     return jsonify(test)
 
 
+@main.route('/save_synth', methods=['POST'])
+def save_synth():
+    to_save = request.json
+    file_name = to_save["file_name"]
+
+    file = open(os.path.join('synth_files', file_name), 'w')
+    file.write(to_save["text"])
+    file.close()
+
+    test = {
+        "text": to_save["text"],
+        "parsed": parse_synth(to_save["text"])
+    }
+    return jsonify(test)
+
+
 @main.route('/')
 def index():
     return render_template('index.html')

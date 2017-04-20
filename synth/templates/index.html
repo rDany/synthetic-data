@@ -42,6 +42,8 @@ var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
 editor.session.setMode("ace/mode/synth");
 
+var current_file_name = null
+
 $( document ).ready(function() {
     var jqxhr = $.ajax( {method: "GET", url: "/get_synth_list"} )
         .done(function(msg) {
@@ -59,12 +61,41 @@ $( document ).ready(function() {
 });
 
 function do_load(file_name) {
+    //TODO should be inside ajax call
+    current_file_name = file_name
     var jqxhr = $.ajax( {method: "GET", url: "/get_synth/"+file_name} )
         .done(function(msg) {
             for (var i in msg["parsed"]["not_found"]) {
+                $( "#console" ).html()
                 $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
             }
             editor.setValue(msg["text"]);
+
+        })
+        .fail(function() {
+            //alert( "error" );
+        })
+        .always(function() {
+            //alert( "complete" );
+        });
+}
+
+function do_save() {
+    if (current_file_name==null) {
+        return;
+    }
+    arr = {"file_name": current_file_name, "text": editor.getValue()}
+    var jqxhr = $.ajax( {method: "POST",
+                        url: "/save_synth",
+                        data: JSON.stringify(arr),
+                        dataType: "json",
+                        contentType: 'application/json; charset=utf-8'} )
+        .done(function(msg) {
+            for (var i in msg["parsed"]["not_found"]) {
+                $( "#console" ).html()
+                $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
+            }
+            //editor.setValue(msg["text"]);
         })
         .fail(function() {
             //alert( "error" );
