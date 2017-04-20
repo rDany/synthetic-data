@@ -1,8 +1,5 @@
-6598d94a5c86454a02a7ef9c8a520f76428fea95ac77fbb1fb007841704d2490
+#6598d94a5c86454a02a7ef9c8a520f76428fea95ac77fbb1fb007841704d2490
 
-H(0):[START]
-
-H(12):Hola
-
-R(18330):Hola! Cómo estás?
+H(0):{start} {eos} Hola
+    R(18330):Hola! Cómo estás?
 
