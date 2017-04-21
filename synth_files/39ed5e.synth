@@ -1,12 +1,6 @@
-39ed5ebacba4025bb58db28b1d8481c5dac9f8d5c7e56c9ff5cbf403d6a76af9
+#39ed5ebacba4025bb58db28b1d8481c5dac9f8d5c7e56c9ff5cbf403d6a76af9
 
-H(0):[START]
-
-H(18):Hello
-
-H(92):Hello
-
-H(511):Hola
+H(0):[START] {eos} Hello {eos} Hello {eos} Hola
 
 R(844):Hola! Cómo estás?
 
