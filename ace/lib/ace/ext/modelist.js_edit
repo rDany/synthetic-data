@@ -1,0 +1,3 @@
+// todo firstlinematch
+var supportedModes = {
+    Synth:       ["synth"],

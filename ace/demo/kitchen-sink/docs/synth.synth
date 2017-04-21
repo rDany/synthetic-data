@@ -1,0 +1,21 @@
+
+# Example
+
+H:Hi there {name}Dany{/name}
+H:Buenas {name}Dany{/name}
+    R:How are you?
+    R:¿Cómo estás?
+        H:I'm fine and you?
+        H:Bien ¿Y tu?
+            R:My systems are working as expected {systems:ok}
+            R:Mis sistemas están funcionando según lo esperado {systems:ok}
+        H:I'm sad {sadness:0.9}
+        H:Estoy triste {sadness:0.9}
+            R:What happened?
+            R:¿Qué sucedió?
+    R:Long time not see you {days_away:2}
+    R:Hace mucho que no te veo {days_away:2}
+        H:True! Did you miss me?
+        H:Cierto! Me extrañaste?
+    R:What do you want? {angry:0.7}
+    R:¿Qué querés? {angry:0.7}
