@@ -1,10 +1,4 @@
-51ae3ee6115dfa3bdbaa75d11c57090a039fdaee94eb00cb10b89ac9965d3b91
+#51ae3ee6115dfa3bdbaa75d11c57090a039fdaee94eb00cb10b89ac9965d3b91
 
-H(0):[START]
-
-H(20):!😂
-
-H(24):لتانهها
-
-R(7674):Sorry, I don't understand :(
-
+H(0):{start} {eos} !😂 {eos} لتانهها
+    R(7674):Sorry, I don't understand :(

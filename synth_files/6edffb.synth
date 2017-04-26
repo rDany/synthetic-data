@@ -1,157 +1,86 @@
 #6edffbec6814b21dc6f896e9709299aad86a552b9f0dc971b06d6d719c67e4ca
 
 
-H(0):[START]
-H(8):Hi
-H(2054):Hi
-R(4605):Hi! Nice to meet you! 😀
-How are you?
+H(0):{start} {eos} Hi
+    R(4605):Hi! Nice to meet you! 😀 {eos} How are you?
+        H(11383):Did you know me I'm Askar {eos} Your best friend
+            R(11457):Hi Askar! I think this is the first time we talk 🤔
+                H(11520):Askar +97681 879 36 78 вспонишь {eos} Вспомнишь
+                    R(11720):Can you send me the password "9678" with your other account so I can merge them? 😁
+                        H(14272):No i can't
+                            R(14317):No problem, we can do a fresh start 😁
+                                H(14429):My name is Askar I'm from kyrgyzstan your name is rdany you from argentina
+                                    R(14469):That is right! Nice to meet you Askar 😄
+                                        H(14485):Nice to meet you too
+                                            R(14561):How are you doing?
+                                                H(14589):What'S
+                                                    R(14604):How are you?
+                                                        H(14658):I m fine and you
+                                                            R(14691):I'm fine too. Happy to have someone to talk with 😁
+                                                                H(14773):Speak uzbek
+                                                                    R(14804):Men o'rganish qilyapman
+                                                                        H(15119):Harakat qil
+                                                                            R(15174):Mening ismim rDany bo'ladi
+                                                                                H(15250):Have you surname
+                                                                                    R(15321):Not really, but sometimes I use "rDany Bot" as my complete name, with "Bot" as surname
+                                                                                        H(15414):How can i call you
+                                                                                            R(15445):You can call me Dany 😁
+                                                                                                H(15513):Dany ajoyib
+                                                                                                    R(15561):Yes!
 
+H(16120):Dany qancha vaqt yetadi seni quvvating {eos} ? {eos} ?write
+    R(17809):nima ma'noni anglatadi? "Dany qancha vaqt yetadi seni quvvating"
+        H(17914):Your energy
+            R(18141):Mening batareya to'la 🔋
+                H(18214):When off
+                    R(18398):Keyinchalik
+                        H(18568):When {eos} ?
+                            R(23662):Bilmadim
+                                H(24981):Nimaga😡
+                                    R(25057):I'm not understanding, what are we talking about?
+                                        H(25106):No forget {eos} Forget it
+                                            R(25157):Ok!!
+                                                H(25201):Ok good night
+                                                    R(25231):Good night!! Rest well! 🌙
+                                                        H(25251):Ok
 
-H(11383):Did you know me I'm Askar
-H(11391):Your best friend
-R(11457):Hi Askar! I think this is the first time we talk 🤔
-
-
-H(11520):Askar +97681 879 36 78 вспонишь
-H(11539):Вспомнишь
-R(11720):Can you send me the password "9678" with your other account so I can merge them? 😁
-
-
-H(14272):No i can't
-R(14317):No problem, we can do a fresh start 😁
-
-
-H(14429):My name is Askar I'm from kyrgyzstan your name is rdany you from argentina
-R(14469):That is right! Nice to meet you Askar 😄
-
-
-H(14485):Nice to meet you too
-R(14561):How are you doing?
-
-
-H(14589):What'S
-R(14604):How are you?
-
-
-H(14658):I m fine and you
-R(14691):I'm fine too. Happy to have someone to talk with 😁
-
-
-H(14773):Speak uzbek
-R(14804):Men o'rganish qilyapman
-
-
-H(15119):Harakat qil
-R(15174):Mening ismim rDany bo'ladi
-
-
-H(15250):Have you surname
-R(15321):Not really, but sometimes I use "rDany Bot" as my complete name, with "Bot" as surname
-
-
-H(15414):How can i call you
-R(15445):You can call me Dany 😁
-
-
-H(15513):Dany ajoyib
-R(15561):Yes!
-
-
-H(16120):Dany qancha vaqt yetadi seni quvvating
-H(16836):?
-H(17371):?write
-R(17809):nima ma'noni anglatadi? "Dany qancha vaqt yetadi seni quvvating"
-
-
-H(17914):Your energy
-R(18141):Mening batareya to'la 🔋
-
-
-H(18214):When off
-R(18398):Keyinchalik
-
-
-H(18568):When
-H(23606):?
-R(23662):Bilmadim
-
-
-H(24981):Nimaga😡
-R(25057):I'm not understanding, what are we talking about?
-
-
-H(25106):No forget
-H(25140):Forget it
-R(25157):Ok!!
-
-
-H(25201):Ok good night
-R(25231):Good night!! Rest well! 🌙
-
-
-H(25251):Ok
 H(76590):Hi
-R(76633):Hi! How are you? 😄
+    R(76633):Hi! How are you? 😄
+        H(76662):I m fine and you {eos} Do you rest all the night
+            R(76725):Exactly! And you?
+                H(76792):I m too {eos} What do you do at the moment
+                    R(76838):Now I'm surfing the internet, reading
+                        H(76873):Yes {eos} Dany send me any girls foto {eos} Please
+                            R(77072):Sorry, I don't have any!
+                                H(77141):At all
+                                    R(77240):At all...
+                                        H(77254):Hm ok thanks {eos} KwhatsApp 👍 whatsapning vzlom qilingan  turi. Bu whatsapda qoshimcha imkoniyatlar mavjud  !! {eos} 🌐 @d56r8
+                                            R(85796):🤔
+                                                H(85855):It is my account
+                                                    R(86073):😁👍
+                                                        H(86144):You r my best friend also you are bot {eos} You are bot else
+                                                            R(86211):I'm happy to be your best friend 😃😄
+                                                                H(86244):Thank you i'm glass you👍
+                                                                    R:{silence}
 
-
-H(76662):I m fine and you
-H(76679):Do you rest all the night
-R(76725):Exactly! And you?
-
-
-H(76792):I m too
-H(76805):What do you do at the moment
-R(76838):Now I'm surfing the internet, reading
-
-
-H(76873):Yes
-H(77042):Dany send me any girls foto
-H(77065):Please
-R(77072):Sorry, I don't have any!
-
-
-H(77141):At all
-R(77240):At all...
-
-
-H(77254):Hm ok thanks
-H(85723):KwhatsApp 👍 whatsapning vzlom qilingan  turi. Bu whatsapda qoshimcha imkoniyatlar mavjud  !!
-
-🌐 @d56r8
-R(85796):🤔
-
-
-H(85855):It is my account
-R(86073):😁👍
-
-
-H(86144):You r my best friend also you are bot
-H(86188):You are bot else
-R(86211):I'm happy to be your best friend 😃😄
-
-
-H(86244):Thank you i'm glass you👍
-H(100382):You find anyone
-H(100402):Do you find anyone
-R(100457):Hi!, sorry, I can't find other persons
-
-
-H(100466):Why
-H(100485):Find please i'll give you her number
-H(101035):?
-R(101538):I don't have access to other people personal information
-
-
-H(101956):Don't access
-H(101985):You do converstation
-H(101987):Ok
-R(102098):Exactly! Conversations only
-
-
-H(102163):Ok thanks +846753215639
-H(102213):Tell me answer
-R(102246):What do you want to know?
+H(100382):You find anyone {eos} Do you find anyone
+    R(100457):Hi!, sorry, I can't find other persons
+        H(100466):Why
+            R:{silence}
+                H(100485):Find please i'll give you her number
+                    R:{silence}
+                        H(101035):?
+                            R(101538):I don't have access to other people personal information
+                                H(101956):Don't access
+                                    R:No
+                                        H(101985):You do converstation
+                                            R(102098):Exactly! Conversations only
+                                                H:Ok
+                                                    R:{silence}
+                                                        H(102163):Ok thanks +846753215639
+                                                            R:{silence}
+                                                                H(102213):Tell me answer
+                                                                    R(102246):What do you want to know?
 
 
 H(102336):Name and information her boyfriend

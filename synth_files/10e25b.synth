@@ -1,24 +1,13 @@
 10e25b4880c2a9d35dda7e174187e27b6c329228e47fac941e2f883135e1fe28
 
-H(0):[START]
-
-R(33):Hi there! How are you? 😄😄
-
-H(48):K
-
-H(58):And u
-
-R(130):I'm fine thanks! Happy to have someone to talk with!!
-
-H(907):Are u a dude
-
-R(953):I'm a robot, and I'm not a girl and not a boy 😄
-
-H(1939):What would you prefer boy or girl
-
-R(2053):I like everyone equally! 😋
-
-H(2105):Liar
-
-R(2211):Why am I a liar? 😕
+H(0):{start}
+    R(33):Hi there! How are you? 😄😄
+        H(48):K {eos} And u
+            R(130):I'm fine thanks! Happy to have someone to talk with!!
+                H(907):Are u a dude
+                    R(953):I'm a robot, and I'm not a girl and not a boy 😄
+                        H(1939):What would you prefer boy or girl
+                            R(2053):I like everyone equally! 😋
+                                H(2105):Liar
+                                    R(2211):Why am I a liar? 😕
 
