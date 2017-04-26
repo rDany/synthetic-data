@@ -34,7 +34,7 @@ else:
 
 #chat with danychidi if he does not need to be trained
 if ntbt == False:
-    print("You are now talking with DanyChidi, say something!")
+    print("You are now talking with DanyChibi, say something!")
     print()
     while True:
         try:
