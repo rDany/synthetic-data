@@ -60,6 +60,7 @@ def parse_synth(text):
 def get_synth_list():
     mypath = 'synth_files'
     onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+    onlyfiles.sort()
     synth_list = {"synth_list": onlyfiles}
     return jsonify(synth_list)
 

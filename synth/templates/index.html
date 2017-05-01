@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Monitor your render">
     <meta name="author" content="rDany">
+    <link href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <!--<link rel="icon" href="/static/rdany.ico">-->
     <title>Synth dataset editor</title>
     <style>
@@ -14,11 +17,6 @@
 #editor {
     margin: 0;
     height:500px;
-    /*position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;*/
 }
     </style>
 
@@ -27,14 +25,56 @@
     <script src="/static/jquery-3.2.1.min.js"></script>
     <script src="/static/ace-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 
-    <h1>Synth dataset editor</h1>
-    <p><a href="#" onclick="do_save();return false;">Save</a> - <a href="#" onclick="do_reload();return false;">Reload</a></p>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Synth dataset editor</a>
+            </div>
+        <!--</div>-->
 
-    <pre id="editor"></pre>
-    <div id="console">
-        <p>Console<p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#" onclick="do_save();return false;">Save</a></li>
+                <li><a href="#" onclick="do_reload();return false;">Reload</a></li>
+            </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <pre id="editor"></pre>
+            </div>
+        </div>
+
+        <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#console" aria-controls="console" role="tab" data-toggle="tab">Console</a></li>
+                <li role="presentation"><a href="#filelist" aria-controls="filelist" role="tab" data-toggle="tab">Filelist</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="console">
+                    <div id="console">
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="filelist">
+                    <ul id="filelist"></ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <ul id="filelist"></ul>
 
     <script>
 
@@ -50,7 +90,6 @@ $( document ).ready(function() {
             for (var i in msg["synth_list"]) {
                 $( "#filelist" ).append("<li><a href=\"#\" onclick=\"do_load('"+msg["synth_list"][i]+"');return false;\">"+msg["synth_list"][i]+"</a></li>");
             }
-            //editor.setValue(msg["text"]);
         })
         .fail(function() {
             //alert( "error" );
@@ -60,17 +99,33 @@ $( document ).ready(function() {
         });
 });
 
+
+$( window ).resize(function() {
+    editor.resize();
+});
+
+
+function print_console(not_found) {
+    $( "#console" ).html("")
+    if (not_found.length > 0) {
+        //$( "#console" ).append("<h2>Tag not found</h2>");
+        $( "#console" ).append("<ul class=\"list-group\">");
+        for (var i in not_found) {
+            $( "#console" ).append("<li class=\"list-group-item list-group-item-danger\">Unknown tag: \""+not_found[i]+"\"</li>");
+        }
+        $( "#console" ).append("</ul>");
+    }
+}
+
+
 function do_load(file_name) {
-    //TODO should be inside ajax call
     current_file_name = file_name
     var jqxhr = $.ajax( {method: "GET", url: "/get_synth/"+file_name} )
         .done(function(msg) {
-            for (var i in msg["parsed"]["not_found"]) {
-                $( "#console" ).html()
-                $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
-            }
+            print_console(msg["parsed"]["not_found"]);
             editor.setValue(msg["text"]);
-
+            editor.clearSelection();
+            editor.gotoLine(0, 0);
         })
         .fail(function() {
             //alert( "error" );
@@ -79,6 +134,7 @@ function do_load(file_name) {
             //alert( "complete" );
         });
 }
+
 
 function do_save() {
     if (current_file_name==null) {
@@ -91,11 +147,7 @@ function do_save() {
                         dataType: "json",
                         contentType: 'application/json; charset=utf-8'} )
         .done(function(msg) {
-            for (var i in msg["parsed"]["not_found"]) {
-                $( "#console" ).html()
-                $( "#console" ).append("<p>"+msg["parsed"]["not_found"][i]+"</p>");
-            }
-            //editor.setValue(msg["text"]);
+            print_console(msg["parsed"]["not_found"]);
         })
         .fail(function() {
             //alert( "error" );
@@ -106,5 +158,6 @@ function do_save() {
 }
 
     </script>
+    <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
